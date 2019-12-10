@@ -1,0 +1,60 @@
+body{
+  margin: 20px 0px;
+  background: white
+}
+
+
+*{
+  font-family: "Times New Roman", "Calibri";
+  font-weight: 300;
+}
+
+
+#age_calculator #birth_date, #c_age, #d_age, #d_date {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: inherit;
+    border-color: -moz-use-text-color;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    font-size: 40px;
+    font-weight: 300;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    width: 25%;
+}
+
+#age_calculator input, #age_calculator input#birth_date {
+  font-size: 2.1em;
+  width: 300px
+}
+
+.row #age_calculator input{
+  color:#1ABC9C;
+}
+input#c_age, input#d_age{
+  width:300px
+}
+
+#age_calculator h1{
+  display: inline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman","Calibri",Calibri,Arial,sans-serif;
+
+}
+
+#age_calculator{
+  text-align: center;
+}
+
+#age_calculator h1{
+  font-weight: 300;
+  font-size: 30px;
+}
